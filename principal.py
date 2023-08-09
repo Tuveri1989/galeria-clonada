@@ -2,9 +2,6 @@ from flask import Flask, request, render_template, send_from_directory
 from werkzeug.utils import secure_filename
 import os
 
-def comprueba_fondo():
-    pass
-
 DOCUMENTOS = ["doc", "docx"]
 
 EXTENSIONES = ["png", "jpg", "jpeg"]
